@@ -315,9 +315,9 @@ puts
 
 
 # Using the nil? method:
-puts ["A", "B"].empty?
-puts [].empty?
-puts [].empty? == 0
+puts ["A", "B"].nil?
+puts [].nil?
+puts [].nil? == 0
 puts
 
 
@@ -356,7 +356,7 @@ puts candy != sweets # => true
 puts "\n\nThe Spaceship operator \"<=>\" in Ruby: "
 
 
-# *"<>" - Returns -1, 0, 1 or nil
+# *"<=>" - Returns -1, 0, 1 or nil
 
 
 # * Returns 0 if the two objects that are being compared to one anther are equal:
@@ -471,7 +471,7 @@ p bubble_tea_flavors # => ["Chocolate", "Kiwi"]
 # ============================================================= #
 
 
-# The .shift and .unshit methods on arrays in Ruby:
+# The .shift and .unshift methods on arrays in Ruby:
 puts "\n\nThe .shift and .unshit methods on arrays in Ruby: "
 
 # * The shift method removes and returns the first element of the array
