@@ -55,7 +55,7 @@ puts a != b # => true
 puts a != c # => false
 puts
 
-# Follows the order in the English Alphabet
+# Follows the order of the English Alphabet
 puts "A" < "B" # => true
 puts "A" < "Z" # => true
 puts "H" < "E" # => false

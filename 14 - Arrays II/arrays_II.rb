@@ -204,7 +204,7 @@ puts "\n\nThe .map and .collect methods in Ruby: "
 # a designated array variable for it contrary to the usual convention of declaring an empty array first.
 
 
-# Store the string legth of every elements from birds array:
+# Store the string length of every elements from birds array:
 birds = %w[eagle sparrow pigeon hawk penguin]
 
 
@@ -257,8 +257,8 @@ puts
 
 
 # Reject the words that are palindrome using the .reject method:
-palindromes = words.reject { |word| word == word.reverse }
-p palindromes # => ["selfless", "sentences"]
+not_palindrome = words.reject { |word| word == word.reverse }
+p not_palindrome # => ["selfless", "sentences"]
 puts
 
 

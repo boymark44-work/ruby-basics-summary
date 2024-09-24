@@ -125,7 +125,7 @@ p fruits.[](10) # => nil
 puts
 
 
-# Overwriting eleements using their index positions:
+# Overwriting elements using their index positions:
 fruits = %w[Apple Orange Grape Banana]
 p fruits # => (Prints objectively the array elements)
 
@@ -463,7 +463,7 @@ puts
 bubble_tea_flavors.pop(1) # => "Strawberry"
 p bubble_tea_flavors # => ["Chocolate", "Kiwi", "Peach", "Plum"]
 
-bubble_tea_flavors.pop(2) # => "Pum"
+bubble_tea_flavors.pop(2) # => "Plum", "Peach"
 p bubble_tea_flavors # => ["Chocolate", "Kiwi"]
 
 

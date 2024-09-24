@@ -105,7 +105,7 @@ puts "Mark " << "Glenn " << "Gabuya"  # => Mark Glenn Gabuya. Concatenate using 
 puts "\n\nThe p, print, and puts method in Ruby: "
 p "Steven Seagal" # => Steven Seagal
 p 5 # => 5
-p "Hi there \n line break" # =>
+p "Hi there \n line break" # =    >
 puts
 print "This random nonsense, " # => This random nonsense, will continue on the same line. Happy Coding. :)
 print " will continue on the same line. "

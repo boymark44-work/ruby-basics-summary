@@ -63,7 +63,7 @@ puts
 
 
 # Define a pastas_and_sauces method that accepts two arrays.
-# The first array with hold pasta types and the second will hold sauces.
+# The first array will hold pasta types and the second will hold sauces.
 # The method should return an array consisting of all the combinations
 # of pastas and sauce. Combine each pasta and sauce in a new string
 # (see example below). Make sure to capitalize each pasta and sauce
@@ -94,9 +94,7 @@ puts
 # Instructor solution:
 def double_elements(values)
   result = []
-
   values.each { |value| result.push(value * 2) }
-
   result
 end
 

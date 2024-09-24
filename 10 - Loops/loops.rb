@@ -257,15 +257,9 @@ puts "straw".reverse # => "warts"
 
 =begin
   *Creating our own reverse method with iteration-based solution:
-
-  *- The following code defines a function that takes a string as an argument
-  *and returns the reverse of that string.
-  *- The function uses a while loop to iterate through the string from the
-  *last character to the first character.
-  *- It then concatenates each character to a new string, which is returned
-  *as the reversed string.
-
-  *The code is as follows:
+    *- The following code defines a function that takes a string as an argument and returns the reverse of that string.
+    *- The function uses a while loop to iterate through the string from the last character to the first character.
+    *- It then concatenates each character to a new string, which is returned as the reversed string.
 =end
 
 def reverse(text)
@@ -290,6 +284,3 @@ puts reverse("straw hat")
 #     a + reverse("str")
 #       r + reverse("st")
 #         t + s   (we can use the s as our base case)
-
-
-

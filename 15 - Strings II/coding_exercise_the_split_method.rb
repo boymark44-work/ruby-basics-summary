@@ -10,7 +10,7 @@
 # The => indicates the expected return value
 # longest_word("Bobby loves big scary kangaroos too")  => "kangaroos"
 # longest_word("Ruby is my favorite language")         => "language"
-# longest_word("Hello")                                => "Hello"]
+# longest_word("Hello")                                => "Hello"
 
 def longest_word(strings)
   words = strings.split(" ")
@@ -52,4 +52,3 @@ end
 p longest_word("Bobby loves very big scary kangaroos too") # => "kangaroos"
 p longest_word("Ruby is my favorite language") # => "language"
 p longest_word("Hello") # => "Hello"
-
