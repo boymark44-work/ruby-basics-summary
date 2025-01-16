@@ -1,2 +1,2 @@
-16 - Object References and Copies\tempCodeRunnerFile.rb
-17 - Hashes I\tempCodeRunnerFile.rb
+# Ignore all instances of tempCodeRunnerFile.rb in any directory
+**/tempCodeRunnerFile.rb
