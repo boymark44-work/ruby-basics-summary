@@ -87,6 +87,7 @@ puts "\n\nString concatenation options in Ruby: "
 first_name = "Harry"
 last_name = "Potter"
 
+puts first_name + " " + last_name # => HarryPotter
 puts first_name + last_name # => HarryPotter
 puts last_name + first_name # => PotterHarry
 puts first_name # => Harry
